@@ -103,6 +103,15 @@ From now on, please use this name for both `git clone` and `docker pull` command
 - **Multi-Agent Orchestration**: Coordinate multiple agents through shared cognitive knowledge and reasoning
 - See [OpenCog Integration Guide](./docs/opencog_integration.md) for detailed information
 
+7. **RegimOrg Organizational AGI**
+
+- **Multi-level Hierarchy**: Organization → Product Ranges → Product Microkernels
+- **Product-Range Cognition Hubs**: Distributed cognition across product families with specialized knowledge domains
+- **Agentic Product Microkernels**: Each product is an autonomous agent with self-contained capabilities and decision-making
+- **Distributed Cognition**: Knowledge sharing and coordination across organizational levels
+- **Organizational Learning**: Products and ranges evolve based on performance and collaboration
+- See [RegimOrg AGI Guide](./docs/regimorg_agi.md) for the complete organizational orchestrator framework
+
 ## 🚀 Things you can build with Agent Zero
 
 - **Development Projects** - `"Create a React dashboard with real-time data visualization"`
@@ -173,6 +182,7 @@ docker run -p 50001:80 agent0ai/agent-zero
 | [Connectivity](./docs/connectivity.md) | External API endpoints, MCP server connections, A2A protocol |
 | [Architecture](./docs/architecture.md) | System design and components |
 | [OpenCog Integration](./docs/opencog_integration.md) | Cognitive architecture and multi-agent orchestration (Cog-Zero) |
+| [RegimOrg AGI](./docs/regimorg_agi.md) | Organizational AGI with product-range hubs and product microkernels |
 | [Contributing](./docs/contribution.md) | How to contribute |
 | [Troubleshooting](./docs/troubleshooting.md) | Common issues and their solutions |
 

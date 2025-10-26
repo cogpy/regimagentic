@@ -94,6 +94,15 @@ From now on, please use this name for both `git clone` and `docker pull` command
 - The terminal interface is real-time streamed and interactive. You can stop and intervene at any point. If you see your agent heading in the wrong direction, just stop and tell it right away.
 - There is a lot of freedom in this framework. You can instruct your agents to regularly report back to superiors asking for permission to continue. You can instruct them to use point-scoring systems when deciding when to delegate subtasks. Superiors can double-check subordinates' results and dispute. The possibilities are endless.
 
+6. **Cognitive Architecture with OpenCog (Cog-Zero)**
+
+- Agent Zero integrates with [OpenCog Hyperon](https://hyperon.opencog.org/) to provide advanced cognitive capabilities
+- **Cognitive Reasoning**: Pattern matching, inference, and multi-step reasoning using OpenCog's cognitive architecture
+- **Knowledge Management**: Store and retrieve knowledge using AtomSpace for persistent cognitive memory
+- **Adaptive Evolution**: Agents evolve their reasoning depth and learning rates based on performance
+- **Multi-Agent Orchestration**: Coordinate multiple agents through shared cognitive knowledge and reasoning
+- See [OpenCog Integration Guide](./docs/opencog_integration.md) for detailed information
+
 ## 🚀 Things you can build with Agent Zero
 
 - **Development Projects** - `"Create a React dashboard with real-time data visualization"`
@@ -163,6 +172,7 @@ docker run -p 50001:80 agent0ai/agent-zero
 | [Extensibility](./docs/extensibility.md) | Extending Agent Zero |
 | [Connectivity](./docs/connectivity.md) | External API endpoints, MCP server connections, A2A protocol |
 | [Architecture](./docs/architecture.md) | System design and components |
+| [OpenCog Integration](./docs/opencog_integration.md) | Cognitive architecture and multi-agent orchestration (Cog-Zero) |
 | [Contributing](./docs/contribution.md) | How to contribute |
 | [Troubleshooting](./docs/troubleshooting.md) | Common issues and their solutions |
 

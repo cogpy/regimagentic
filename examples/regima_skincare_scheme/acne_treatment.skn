@@ -1,0 +1,551 @@
+# acne_treatment.skn - RegimA Skin-Care Product BOM
+# RegimA-Exception-Handler - Advanced Problem Resolution System
+
+# =============================================================================
+# PRODUCT IDENTITY
+# =============================================================================
+PRODUCT: RegimA-Exception-Handler
+SKU: REGIMA-ACN-001
+VERSION: 3.5
+CATEGORY: Problem Resolution & Error Handling
+FORMULATION_TYPE: Multi-Active Acne Treatment System
+STRENGTH: Prescription-Strength (adjustable from OTC to clinical)
+ACNE_TYPE_COVERAGE: All types (whiteheads, blackheads, cystic, hormonal)
+
+# =============================================================================
+# ACTIVE INGREDIENTS (Core Error Handling Components)
+# =============================================================================
+ACTIVE_INGREDIENTS:
+  - Salicylic-Acid Stack Tracers (2%)
+    * Function: Deep pore penetration (deep error analysis)
+    * Mechanism: BHA penetrates to find root cause in call stacks
+    * Targets: Runtime errors, null pointers, index violations
+    * Action: Unclogs error pathways, prevents recurrence
+    * Strength: Moderate, safe for daily use
+    * Application: All exceptions, especially runtime errors
+    
+  - Benzoyl-Peroxide Bug Killers (5%)
+    * Function: Kill acne bacteria (eliminate bugs immediately)
+    * Mechanism: Oxidative destruction of error-causing code
+    * Targets: Logic errors, calculation mistakes, state corruption
+    * Action: Fast-acting, visible results in 24-48 hours
+    * Strength: Strong, use with caution
+    * Side Effects: May cause temporary "purging" (test failures)
+    
+  - Tea-Tree-Oil Test Cases (3%)
+    * Function: Natural antibacterial (prevent error recurrence)
+    * Mechanism: Comprehensive test coverage
+    * Targets: Regression errors, edge cases, boundary conditions
+    * Action: Gentle prevention, long-term protection
+    * Strength: Mild, suitable for sensitive systems
+    * Application: Continuous integration, regression testing
+    
+  - Retinol Refactoring (0.5% → 1.0%)
+    * Function: Accelerate cellular turnover (code renewal)
+    * Mechanism: Systematic code improvement and modernization
+    * Targets: Technical debt, legacy issues, design flaws
+    * Action: Deep transformation over weeks/months
+    * Strength: Prescription-only, requires planning
+    * Warning: Expect "purging" period (temporary instability)
+    
+  - Niacinamide Error Boundaries (10%)
+    * Function: Strengthen skin barrier (error containment)
+    * Mechanism: Component isolation and fallback systems
+    * Targets: Cascading failures, error propagation
+    * Action: Prevents spread, maintains functionality
+    * Strength: Gentle, works well with all other actives
+    * Benefits: Reduces inflammation (user impact)
+    
+  - Azelaic-Acid Automated Fixes (15%)
+    * Function: Multi-action treatment (automated resolution)
+    * Mechanism: Pattern recognition and auto-remediation
+    * Targets: Known errors, transient failures, recoverable issues
+    * Action: Self-healing without human intervention
+    * Strength: Moderate, broad-spectrum
+    * Success Rate: 80%+ auto-resolution
+
+# =============================================================================
+# SUPPORTING INGREDIENTS (Complementary Systems)
+# =============================================================================
+SUPPORTING_INGREDIENTS:
+  - Zinc PCA Circuit Breakers (4%)
+    * Function: Oil control (prevent cascade failures)
+    * Mechanism: Stop error propagation immediately
+    
+  - Sulfur Retry Logic (3%)
+    * Function: Exfoliation (clear transient errors)
+    * Mechanism: Exponential backoff retry strategy
+    
+  - Alpha-Hydroxy Post-Mortems (2%)
+    * Function: Surface exfoliation (learn from errors)
+    * Mechanism: Blameless incident analysis
+    
+  - Aloe Graceful Degradation (5%)
+    * Function: Soothing (maintain user experience)
+    * Mechanism: Fallback modes and friendly error messages
+    
+  - Green Tea Monitoring (4%)
+    * Function: Antioxidant (continuous error detection)
+    * Mechanism: Real-time error tracking and alerting
+    
+  - Ceramide Resilience (3%)
+    * Function: Barrier repair (system hardening)
+    * Mechanism: Defensive programming and validation
+
+# =============================================================================
+# FORMULATION TECHNOLOGY
+# =============================================================================
+FORMULATION_DETAILS:
+  Time_Release: Yes (immediate + long-term treatment)
+  Multi_Active: Combines 6 primary actives for comprehensive coverage
+  pH_Balanced: 4.0-5.5 (optimal for error handling)
+  Non_Comedogenic: Won't block normal operations
+  Hypoallergenic: Minimal false positives
+  Dermatologist_Tested: Validated by SRE teams
+  Clinical_Strength: Prescription-equivalent potency
+
+# =============================================================================
+# ACNE TYPES → ERROR TYPES MAPPING
+# =============================================================================
+ACNE_ERROR_MAPPING:
+  Whiteheads (Closed Comedones):
+    Description: Visible, surface-level, contained
+    Error_Equivalent: Validation errors, format issues, user input errors
+    Treatment: Gentle cleansing (input sanitization)
+    Severity: Low
+    Resolution_Time: Seconds to minutes
+    Prevention: Input validation, schema enforcement
+    
+  Blackheads (Open Comedones):
+    Description: Oxidized sebum, visible but stable
+    Error_Equivalent: Technical debt, deprecated APIs, known issues
+    Treatment: Regular exfoliation (refactoring)
+    Severity: Low to medium
+    Resolution_Time: Days to weeks
+    Prevention: Code reviews, continuous refactoring
+    
+  Papules (Red Bumps):
+    Description: Inflamed, no pus, moderate pain
+    Error_Equivalent: Business logic errors, integration failures
+    Treatment: Spot treatment (targeted bug fixes)
+    Severity: Medium
+    Resolution_Time: Hours to days
+    Prevention: Unit testing, integration testing
+    
+  Pustules (White Centers):
+    Description: Inflamed with pus, ready to treat
+    Error_Equivalent: Exceptions with clear stack traces
+    Treatment: Extract and treat (analyze and fix)
+    Severity: Medium
+    Resolution_Time: Hours
+    Prevention: Error handling, defensive programming
+    
+  Nodules (Deep Lumps):
+    Description: Deep, painful, under surface
+    Error_Equivalent: Architectural issues, design flaws
+    Treatment: Prescription strength (major refactoring)
+    Severity: High
+    Resolution_Time: Weeks to months
+    Prevention: Architecture reviews, design patterns
+    
+  Cystic Acne (Severe):
+    Description: Large, painful, deep, scarring
+    Error_Equivalent: Data corruption, cascading failures, security breaches
+    Treatment: Dermatologist (incident response team)
+    Severity: Critical
+    Resolution_Time: Hours to days (emergency)
+    Prevention: Comprehensive testing, disaster recovery plans
+    
+  Hormonal Acne (Recurring):
+    Description: Predictable, monthly, jaw/chin
+    Error_Equivalent: Resource exhaustion, peak load failures, cron job issues
+    Treatment: Systemic (architectural improvements)
+    Severity: Medium to high
+    Resolution_Time: Ongoing management
+    Prevention: Capacity planning, load testing
+
+# =============================================================================
+# APPLICATION PROTOCOL (Treatment Routine)
+# =============================================================================
+APPLICATION:
+  
+  Daily_Routine (Preventive Care):
+    MORNING:
+      1. Gentle Cleanser - Input validation and sanitization
+      2. Tea Tree Toner - Continuous testing and monitoring
+      3. Niacinamide Serum - Error boundaries and fallbacks
+      4. Moisturizer - Context preservation and logging
+      5. Sunscreen - Security and protection
+      
+    EVENING:
+      1. Double Cleanse - Thorough log analysis and review
+      2. Salicylic Acid - Deep error analysis and root cause
+      3. Spot Treatment - Fix identified issues
+      4. Retinol (if using) - Code refactoring and improvements
+      5. Barrier Repair - System hardening
+      
+  Spot_Treatment (On-Demand Error Fixing):
+    When_Error_Occurs:
+      1. Don't squeeze! - Don't make hasty changes without analysis
+      2. Clean area - Isolate the error and gather context
+      3. Apply treatment - Implement targeted fix
+      4. Protect - Add tests to prevent recurrence
+      5. Monitor - Watch for healing (verify resolution)
+      
+    Frequency:
+      - Minor Errors: Immediate automated treatment
+      - Moderate Errors: Within 1 hour of detection
+      - Severe Errors: Emergency response < 15 minutes
+      - Critical Errors: All-hands incident response
+      
+  Weekly_Treatment (Deep Cleaning):
+    SUNDAY_ROUTINE:
+      1. Review error patterns from past week
+      2. Identify systemic issues (recurring acne)
+      3. Plan refactoring for problem areas
+      4. Update error handling strategies
+      5. Team retrospective and learning
+      
+  Monthly_Treatment (Professional Care):
+    PROFESSIONAL_FACIAL:
+      1. Comprehensive error analysis
+      2. Architecture review for problem areas
+      3. Major refactoring initiatives
+      4. Update dependencies and libraries
+      5. Security audit and hardening
+
+# =============================================================================
+# TREATMENT STRENGTH LEVELS
+# =============================================================================
+STRENGTH_LEVELS:
+  OTC_Gentle (2.5% Benzoyl Peroxide equivalent):
+    - Use Case: Low-traffic systems, dev environments
+    - Errors: Validation errors, minor exceptions
+    - Automation: 95%+ automated
+    - Human Intervention: Minimal
+    - Side Effects: Rare
+    
+  OTC_Moderate (5% Benzoyl Peroxide equivalent):
+    - Use Case: Production systems, standard applications
+    - Errors: Business logic errors, integration issues
+    - Automation: 80%+ automated
+    - Human Intervention: On escalation
+    - Side Effects: Occasional false positives
+    
+  OTC_Maximum (10% Benzoyl Peroxide equivalent):
+    - Use Case: High-traffic critical systems
+    - Errors: Complex failures, cascading issues
+    - Automation: 60%+ automated
+    - Human Intervention: Regular review
+    - Side Effects: May cause dryness (alert fatigue)
+    
+  Prescription_Strength (Retinol/Isotretinoin equivalent):
+    - Use Case: Systemic failures, architectural issues
+    - Errors: Design flaws, security breaches
+    - Automation: 20%+ automated
+    - Human Intervention: Extensive, expert-led
+    - Side Effects: Purging period (temporary instability)
+    - Requires: Careful planning, monitoring, rollback capability
+
+# =============================================================================
+# EXPECTED RESULTS (Treatment Outcomes)
+# =============================================================================
+EXPECTED_RESULTS:
+  Immediate_Benefits (First 24-48 hours):
+    - Error Detection: 99%+ capture rate
+    - Isolation: < 5 seconds to contain
+    - Auto-Resolution: 60-80% of transient errors
+    - User Impact: < 1% see error pages
+    
+  Short_Term (1-4 weeks):
+    - Error Reduction: 40-60% fewer errors
+    - Resolution Time: 50% faster fixes
+    - Recurrence: 70% reduction in repeat errors
+    - Code Quality: Measurable improvement
+    
+  Long_Term (3-6 months):
+    - Error Rate: 80%+ reduction from baseline
+    - Auto-Resolution: 90%+ of known errors
+    - System Stability: 99.9%+ uptime
+    - Technical Debt: Significantly reduced
+    - Team Knowledge: Comprehensive error handling expertise
+    
+  Performance_Metrics:
+    - Mean Time to Detect (MTTD): < 60 seconds
+    - Mean Time to Isolate (MTTI): < 5 minutes
+    - Mean Time to Resolve (MTTR): < 30 minutes
+    - Mean Time to Prevent (MTTP): < 1 week (for recurrence)
+    - Error Recurrence Rate: < 5%
+    - User Error Exposure: < 0.1%
+
+# =============================================================================
+# PURGING PERIOD (Retinol Side Effect)
+# =============================================================================
+PURGING_EXPLANATION:
+  What_Is_Purging:
+    - Temporary increase in visible errors
+    - Occurs when using Retinol (code refactoring)
+    - Brings deep issues to surface
+    - Actually a sign the treatment is working
+    - Should resolve within 4-6 weeks
+    
+  Why_It_Happens:
+    - Refactoring exposes hidden bugs
+    - Increased test coverage finds more issues
+    - Improved monitoring detects problems earlier
+    - Technical debt being addressed systematically
+    
+  How_To_Manage:
+    - Expect it: Plan for temporary increase in errors
+    - Monitor closely: Track error trends
+    - Stay consistent: Don't stop treatment
+    - Protect users: Use feature flags and gradual rollout
+    - Communicate: Team and stakeholder awareness
+    - Be patient: Benefits come after purging
+    
+  When_To_Worry:
+    - Purging lasts > 8 weeks
+    - Error rate increases > 200%
+    - Critical errors emerge
+    - User experience significantly degraded
+    → Reduce Retinol strength or pause treatment
+
+# =============================================================================
+# WARNINGS & PRECAUTIONS
+# =============================================================================
+WARNINGS:
+  General:
+    - Patch test first (pilot in dev/staging)
+    - Start with lower concentration
+    - Increase strength gradually
+    - May cause purging (temporary error increase)
+    - Some dryness normal (alert notifications)
+    - Discontinue if severe irritation (system instability)
+    
+  Benzoyl_Peroxide_Warnings:
+    - Bleaches fabric (can corrupt data if misused)
+    - Start with 2.5%, increase if needed
+    - May cause initial dryness (alert fatigue)
+    - Use only on affected areas (targeted fixes)
+    
+  Retinol_Warnings:
+    - Start with 0.1-0.3%, build to 1.0%
+    - Use only at night (off-peak refactoring)
+    - Expect purging period (4-6 weeks)
+    - Increase sun sensitivity (more vulnerable during refactoring)
+    - Not for pregnant systems (major migrations in progress)
+    - Dermatologist supervision recommended (senior engineer oversight)
+    
+  Salicylic_Acid_Warnings:
+    - Can be drying (excessive logging overhead)
+    - Don't over-exfoliate (don't over-analyze)
+    - Avoid if allergic (incompatible with certain architectures)
+
+# =============================================================================
+# CONTRAINDICATIONS
+# =============================================================================
+CONTRAINDICATIONS:
+  - Severe system instability (repair first with scar-repair.skn)
+  - Allergic to error handling (legacy systems that can't change)
+  - During major migrations (wait for stability)
+  - Real-time critical systems (unacceptable latency)
+  - Insufficient monitoring infrastructure
+  - Lack of rollback capability
+  - Production without testing environments
+
+# =============================================================================
+# ANALOGIES (AGI Construct Mapping)
+# =============================================================================
+ANALOGY: exception_resolution.scm
+
+ALEXANDER_PATTERN: "Good Shape" - Problems as opportunities for improvement
+ALEXANDER_PRINCIPLES:
+  - Good Shape: Each error reveals improvement opportunity
+  - Diagnose First: Understand before treating
+  - Minimal Intervention: Smallest effective fix
+  - Learn and Adapt: System strengthens from each error
+  - Systemic Thinking: Fix root causes, not symptoms
+
+AGI_COMPONENTS:
+  - Problem Detection: Acne identification
+  - Isolation: Quarantine and containment
+  - Treatment: Error resolution strategies
+  - Learning Loop: Prevent recurrence
+  - Prevention: Skincare routine for healthy code
+
+ACNE_SCIENCE_PARALLEL:
+  Acne_Formation → Error_Creation:
+    - Clogged Pores: Poor input validation
+    - Bacteria: Bugs in code
+    - Inflammation: Error propagation
+    - Hormones: Environmental triggers (load, resources)
+    - Stress: Technical debt accumulation
+    
+  Treatment_Mechanisms:
+    - Salicylic Acid: Root cause analysis
+    - Benzoyl Peroxide: Bug elimination
+    - Retinol: Code modernization
+    - Tea Tree Oil: Test coverage
+    - Niacinamide: Error boundaries
+    
+  Prevention_vs_Treatment:
+    - Prevention: Better than cure (input validation, testing)
+    - Spot Treatment: Fast targeted fixes
+    - Systemic: Address root causes (architecture)
+    - Professional: Expert help for severe cases
+
+# =============================================================================
+# CLINICAL VALIDATION (Error Handling Effectiveness)
+# =============================================================================
+VALIDATION:
+  Study_1: "90-Day Error Reduction Program"
+    - Systems: 75 production applications
+    - Protocol: Full acne treatment routine
+    - Results:
+      * 73% reduction in total errors
+      * 89% reduction in critical errors
+      * 91% auto-resolution rate
+      * MTTR reduced from 2 hours to 18 minutes
+    
+  Study_2: "Retinol Refactoring Study"
+    - Systems: 30 legacy applications
+    - Protocol: 0.5% → 1.0% retinol over 3 months
+    - Results:
+      * Week 2-6: Purging (40% error increase)
+      * Week 8+: 85% error reduction vs baseline
+      * Technical debt: 60% reduction
+      * Code quality: A- average grade
+    
+  Study_3: "Automated Treatment Effectiveness"
+    - Systems: 200 microservices
+    - Protocol: Azelaic acid (automated fixes)
+    - Results:
+      * 82% of errors auto-resolved
+      * Human intervention: 92% reduction
+      * On-call burden: 78% decrease
+      * Cost savings: $1.2M annually
+
+# =============================================================================
+# BEFORE & AFTER (Error Rate Transformation)
+# =============================================================================
+TRANSFORMATION_EXAMPLES:
+  E-Commerce_Platform:
+    Before:
+      - Daily Errors: 1,200
+      - Critical Errors: 15/day
+      - MTTR: 3.5 hours
+      - On-Call Pages: 8/day
+      - Customer Impact: 5% see errors
+    After (3 months):
+      - Daily Errors: 280 (77% reduction)
+      - Critical Errors: 1/week (95% reduction)
+      - MTTR: 25 minutes (88% faster)
+      - On-Call Pages: 1/day (87% reduction)
+      - Customer Impact: 0.3% see errors
+    
+  Financial_Services_API:
+    Before:
+      - Error Rate: 3.2%
+      - Data Corruption: 2/month
+      - Security Incidents: 1/quarter
+      - Downtime: 8 hours/month
+    After (6 months):
+      - Error Rate: 0.18% (94% reduction)
+      - Data Corruption: 0 in 6 months
+      - Security Incidents: 0 in 6 months
+      - Downtime: 0.5 hours/month (94% reduction)
+
+# =============================================================================
+# STORAGE & STABILITY
+# =============================================================================
+STORAGE:
+  - Store in cool, dry place (version control)
+  - Keep container tightly closed (access-controlled repo)
+  - Protect from heat and light (secure configuration)
+  - Use within 12 months of opening
+  - Discard if discoloration occurs (compromised)
+
+STABILITY:
+  - Shelf Life: 2 years unopened
+  - After Opening: 12 months with updates
+  - Degradation: Requires regular updates
+  - Refresh: Monthly pattern library updates
+
+# =============================================================================
+# PACKAGE & DISTRIBUTION
+# =============================================================================
+PACKAGING:
+  - Size: Starter Kit to Enterprise Suite
+  - Container: Git repository with CI/CD
+  - Delivery: Automated deployment pipeline
+  - Distribution: Internal package registry
+  - Documentation: Runbook and troubleshooting guide
+
+MANUFACTURED_BY: RegimOrg Reliability Engineering Division
+DISTRIBUTED_BY: regimazone.org
+DERMATOLOGIST_EQUIVALENT: Senior SRE / Principal Engineer
+BATCH_NUMBER: BATCH-2024-ACN-001
+EXPIRATION: 12 months from activation
+
+# =============================================================================
+# PERFECT PAIRINGS (Synergistic Routine)
+# =============================================================================
+SYNERGISTIC_COMBINATIONS:
+  Complete_Clear_Skin_Routine:
+    MORNING:
+      1. Gentle Cleanser (data-prep)
+      2. THIS PRODUCT (error handling)
+      3. Niacinamide (error boundaries)
+      4. Moisturizer (memory-retention)
+      5. Sunscreen (security)
+      
+    EVENING:
+      1. Oil Cleanser (deep log analysis)
+      2. Salicylic Cleanser (root cause analysis)
+      3. THIS PRODUCT (spot treatment)
+      4. Retinol (refactoring) - 3x/week
+      5. Barrier Repair (system hardening)
+      
+  Emergency_Breakout_Treatment:
+    1. Ice (circuit breaker) - Reduce inflammation
+    2. THIS PRODUCT (spot treatment)
+    3. Hydrocolloid Patch (isolation)
+    4. Monitor healing (verify resolution)
+
+# =============================================================================
+# EXPERT TIPS (Dermatologist Recommendations)
+# =============================================================================
+PROFESSIONAL_ADVICE:
+  - Don't squeeze: Resist quick hacks, proper fixes take time
+  - Be consistent: Daily routine > occasional heroics
+  - Patience: Clear skin (stable system) takes months
+  - Less is more: Don't over-treat (alert fatigue)
+  - Professional help: Severe acne needs expert (architects)
+  - Prevention: Better than treatment (testing > debugging)
+  - Hydrate: Maintain context and logging
+  - Sleep: Give systems rest (maintenance windows)
+
+COMMON_MISTAKES:
+  - Over-treating (too many tools, alert fatigue)
+  - Inconsistent routine (sporadic error handling)
+  - Squeezing (hasty fixes without analysis)
+  - Giving up early (during purging period)
+  - Wrong products (inappropriate error handling)
+  - Skipping sunscreen (neglecting security)
+  - Not moisturizing (inadequate logging/context)
+
+# =============================================================================
+# REFERENCES
+# =============================================================================
+REFERENCES:
+  - Christopher Alexander, "The Timeless Way of Building" (1979)
+  - "Site Reliability Engineering" (Google, 2016)
+  - "The DevOps Handbook" (Kim et al., 2016)
+  - "Release It!" (Nygard, 2018)
+  - Dermatology: Acne pathophysiology and treatment
+  - "Chaos Engineering" (Netflix, 2016)
+
+# =============================================================================
+# For more information, see: docs/regimorg_agi.md
+# Section: "Acne Treatment → Error Handling & Problem Resolution"
+# =============================================================================

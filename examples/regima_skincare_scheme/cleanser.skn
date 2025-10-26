@@ -1,0 +1,57 @@
+# cleanser.skn - RegimA Skin-Care Product BOM
+# Deep Cleansing Algorithm - Data Sanitization Formula
+
+PRODUCT: Deep-Cleansing-Algorithm
+SKU: REGIMA-CLN-001
+VERSION: 1.5
+CATEGORY: Data Sanitization & Input Validation
+FORMULATION_TYPE: Daily Pre-Processing Cleanser
+
+ACTIVE_INGREDIENTS:
+  - Outlier Detection Enzymes (20%)
+    * Function: Identify and remove statistical anomalies
+    * Mechanism: Z-score and IQR-based detection
+    
+  - Noise Filtering Agents (15%)
+    * Function: Reduce signal noise and artifacts
+    * Mechanism: Moving averages and smoothing filters
+    
+  - Validation Surfactants (25%)
+    * Function: Schema and business rule validation
+    * Mechanism: JSON Schema, Pydantic models
+    
+  - Encoding Purifiers (10%)
+    * Function: Character encoding normalization
+    * Mechanism: UTF-8 conversion and sanitization
+
+SUPPORTING_INGREDIENTS:
+  - pH-Balanced Error Handlers (5%)
+  - Moisturizing Metadata Enrichers (3%)
+  - Soothing Logging Extract (2%)
+
+APPLICATION:
+  Frequency: Every input, real-time processing
+  Timing: Pre-processing stage, before any reasoning
+  Method:
+    1. Receive raw input data
+    2. Apply sanitization filters
+    3. Validate against schema
+    4. Normalize format
+    5. Enrich with metadata
+    6. Pass to reasoning engine
+
+EXPECTED_RESULTS:
+  - Input Quality: 99.9%+ clean data
+  - Processing Speed: < 10ms latency
+  - False Rejection: < 0.1%
+
+ANALOGY: cognitive_data_prep.scm
+ALEXANDER_PATTERN: "Light on Two Sides of Every Room" - Clarity through proper preparation
+
+WARNINGS:
+  - Do not over-filter; may lose important edge cases
+  - Monitor false positive rate regularly
+  - Balance between strictness and flexibility
+
+MANUFACTURED_BY: RegimOrg Data Engineering Division
+BATCH_NUMBER: BATCH-2024-CLN-001

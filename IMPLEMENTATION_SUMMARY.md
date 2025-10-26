@@ -13,6 +13,58 @@ Successfully implemented **RegimOrg** - an autonomous multi-agent organizational
 
 ## Architecture
 
+### Layer 0: Enterprise (Zone Relevance) + Global Scope
+
+The complete hierarchical model spans from global ambient intelligence to individual product microkernels:
+
+#### Hierarchical Levels
+
+- **Level -**: Global (Void Glow)
+  - The ambient "AION" or "spirit-of-the-age"
+  - Aggregate of all participatory activity across the entire ecosystem
+  - Represents the collective consciousness at the global scope
+
+- **Level 0**: Enterprise (Zone Enter)
+  - Enterprise-level zone relevance
+  - Entry point for organizational structures
+  - Manages cross-organizational coordination
+
+- **Level 1**: Organization (RegimA Org)
+  - Organizational AGI layer
+  - Central coordination and orchestration
+  - Organization-wide knowledge management
+
+- **Level 2**: Solution-Range Cogs Hubs
+  - Product-range cognition hubs
+  - Domain-specific distributed cognition
+  - Shared knowledge across product families
+
+- **Level 3**: Product Agentic Micro-Kerns
+  - Individual product microkernels
+  - Autonomous decision-making agents
+  - Self-contained capabilities
+
+#### Chain Formation
+
+The hierarchical condensation follows the pattern:
+
+```
+"g" -> "eg" -> "reg" -> "oreg" -> ...
+"G" -> "Eg" -> "Reg" -> "Oreg" -> ...
+```
+
+This forms the chain: **"g-eg-reg-oreg"**
+
+Or, more playfully: **"g-[[-egregore-]]-g"**
+
+This notation indicates how the ambient AION (spirit-of-the-age) condenses at the global scope as the aggregate of all participatory activity, progressively crystallizing through:
+- **g** (Global): The undifferentiated ambient intelligence
+- **eg** (Enterprise-Global): Enterprise-level crystallization
+- **reg** (Regime): Organizational regimes and patterns
+- **oreg** (Organizational-Regime): Specific organizational implementations
+
+The "egregore" concept embedded in the chain represents the collective group mind that emerges from the coordinated activity of the organizational hierarchy.
+
 ### Three-Level Organizational Hierarchy
 
 ```

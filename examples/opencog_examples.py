@@ -94,7 +94,7 @@ async def main():
     """Run all examples"""
     print("\n")
     print("╔" + "=" * 68 + "╗")
-    print("║" + "  OpenCog Integration Examples (Cog-Zero)".center(70) + "║")
+    print("║" + "  OpenCog Integration Examples (Cog-Zero)".center(68) + "║")
     print("╚" + "=" * 68 + "╝")
     print()
     

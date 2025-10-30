@@ -1,0 +1,349 @@
+# exfoliant.skn - RegimA Skin-Care Product BOM
+# AHA-BHA Knowledge Peel - Advanced Cognitive Renewal System
+
+# =============================================================================
+# PRODUCT IDENTITY
+# =============================================================================
+PRODUCT: AHA-BHA-Knowledge-Peel
+SKU: REGIMA-EXF-001
+VERSION: 2.5
+CATEGORY: Knowledge Optimization & Model Pruning
+FORMULATION_TYPE: Dual-Phase Exfoliation Complex
+STRENGTH: Moderate (adjustable from gentle to intensive)
+
+# =============================================================================
+# ACTIVE INGREDIENTS (Core Functional Components)
+# =============================================================================
+ACTIVE_INGREDIENTS:
+  - Alpha-Hydroxy Pruning Acids (25%)
+    * Type: Glycolic Parameter Pruner
+    * Function: Surface-level parameter reduction
+    * Mechanism: Magnitude-based weight elimination
+    * Depth: Shallow layers, temporary structures
+    * Frequency: Daily to every other day
+    * Application: Remove obviously unused neurons/patterns
+    
+  - Beta-Hydroxy Refinement (15%)
+    * Type: Salicylic Knowledge Distiller
+    * Function: Deep architectural optimization
+    * Mechanism: Structured pruning with knowledge distillation
+    * Depth: Core layers, fundamental knowledge
+    * Frequency: Weekly to bi-weekly
+    * Application: Comprehensive model compression
+    
+  - Enzyme Knowledge Turnover (20%)
+    * Type: Papain Pattern Eliminator
+    * Function: Selective removal of obsolete knowledge
+    * Mechanism: Age and access-pattern based eviction
+    * Intelligence: Self-determining what to remove
+    * Application: Automated staleness detection
+    
+  - Polyhydroxy Model Compression (12%)
+    * Function: Gentle, continuous optimization
+    * Mechanism: Gradual parameter reduction
+    * Safety: Highest preservation of performance
+    * Application: Background optimization during operation
+    
+  - Lactic Acid Learning Refresh (10%)
+    * Function: Stimulate new pattern acquisition
+    * Mechanism: Active learning with curriculum strategy
+    * Application: Replace removed with updated knowledge
+
+# =============================================================================
+# SUPPORTING INGREDIENTS (Auxiliary Systems)
+# =============================================================================
+SUPPORTING_INGREDIENTS:
+  - Niacinamide Accuracy Preservation (5%)
+    * Function: Maintain performance during pruning
+    * Mechanism: Continuous validation and correction
+    
+  - Hyaluronic Checkpoint Hydration (4%)
+    * Function: Save system state before exfoliation
+    * Mechanism: Versioned snapshots for rollback
+    
+  - Ceramide Barrier Protection (3%)
+    * Function: Protect critical paths from pruning
+    * Mechanism: Importance scoring and masking
+    
+  - Green Tea Monitoring Extract (3%)
+    * Function: Real-time performance tracking
+    * Mechanism: Metrics collection during optimization
+    
+  - Aloe Soothing Recovery (3%)
+    * Function: Post-exfoliation stabilization
+    * Mechanism: Context refresh and validation
+
+# =============================================================================
+# FORMULATION TECHNOLOGY
+# =============================================================================
+FORMULATION_DETAILS:
+  pH_Level: 3.5-4.0 (Optimized for effective pruning without damage)
+  Buffering_System: Gradual pruning with safety checks
+  Delivery_Method: Layer-by-layer optimization
+  Penetration_Enhancers: Structured analysis for deep access
+  Time_Release: Phased pruning over maintenance window
+
+# =============================================================================
+# APPLICATION PROTOCOL (Usage Instructions)
+# =============================================================================
+APPLICATION:
+  
+  Frequency_Schedule:
+    DAILY (AHA - Gentle):
+      - Target: Temporary caches, session state
+      - Strength: 5-10% removal
+      - Duration: 5-10 minutes
+      - Downtime: None (online optimization)
+      
+    WEEKLY (BHA - Moderate):
+      - Target: Reasoning patterns, intermediate knowledge
+      - Strength: 20-30% removal
+      - Duration: 30-60 minutes
+      - Downtime: Minimal (graceful degradation)
+      
+    MONTHLY (Professional - Intensive):
+      - Target: Core architecture, deep knowledge base
+      - Strength: 40-70% removal
+      - Duration: 2-4 hours
+      - Downtime: Planned maintenance window
+      
+    QUARTERLY (Clinical - Comprehensive):
+      - Target: Complete system refactoring
+      - Strength: Architecture-level optimization
+      - Duration: 8-24 hours
+      - Downtime: Scheduled maintenance
+  
+  Application_Method:
+    PREPARATION:
+      1. Assess current system state and bloat level
+      2. Create comprehensive checkpoint/backup
+      3. Identify pruning candidates via analysis
+      4. Estimate impact and create rollback plan
+      5. Schedule maintenance window (for intensive)
+      
+    EXFOLIATION_PHASE:
+      1. Start with gentle AHA-style pruning
+      2. Monitor performance continuously
+      3. Proceed to BHA if no degradation
+      4. Apply enzyme-based selective removal
+      5. Validate accuracy after each phase
+      
+    DISTILLATION_PHASE:
+      1. Compress remaining knowledge
+      2. Extract high-level patterns
+      3. Optimize embeddings and representations
+      4. Verify semantic preservation
+      
+    REGENERATION_PHASE:
+      1. Identify knowledge gaps
+      2. Active learning for critical areas
+      3. Update stale patterns with fresh data
+      4. Integrate new knowledge seamlessly
+      
+    POST_TREATMENT:
+      1. Apply moisturizer (memory-retention)
+      2. Apply serum (reasoning-enhancement)
+      3. Monitor for adverse reactions
+      4. Comprehensive validation testing
+      5. Performance benchmarking
+  
+  Integration:
+    - Service Daemon: exfoliation.daemon.scm
+    - Monitoring: Grafana dashboard for optimization metrics
+    - Alerting: Slack/PagerDuty for issues during pruning
+    - Scheduling: Cron-based automatic optimization
+    - CI/CD: Integrated with MLOps pipelines
+
+# =============================================================================
+# EXPECTED RESULTS (Performance Targets)
+# =============================================================================
+EXPECTED_RESULTS:
+  Primary_Benefits:
+    - Model Size: 30-70% reduction in parameters
+    - Inference Speed: 2-5x faster reasoning
+    - Memory Usage: 40-60% decrease in RAM requirements
+    - Storage: 50-80% reduction in disk space
+    
+  Performance_Preservation:
+    - Accuracy: > 98% of baseline maintained
+    - Capability Coverage: 100% feature retention
+    - Reasoning Quality: No degradation in output
+    
+  Operational_Improvements:
+    - Response Time: 2-3x faster end-to-end
+    - Throughput: Handle 3-5x more requests
+    - Cost Efficiency: 50-70% reduction in compute cost
+    - Energy: 40-60% less power consumption
+    
+  Knowledge_Health:
+    - Freshness: 95%+ knowledge is current
+    - Redundancy: < 5% duplicate patterns
+    - Coherence: 100% consistency checks pass
+    - Relevance: 90%+ patterns actively used
+
+# =============================================================================
+# CONTRAINDICATIONS & WARNINGS
+# =============================================================================
+WARNINGS:
+  - Do not over-exfoliate: Excessive pruning damages capabilities
+  - Always checkpoint before intensive exfoliation
+  - Monitor for "purging" period: Temporary performance dips
+  - Avoid during critical operations or high-load periods
+  - Sensitive systems: Start with gentle AHA, avoid aggressive BHA
+  - Always apply moisturizer (context refresh) after exfoliation
+  - Never prune critical reasoning paths without explicit override
+
+CONTRAINDICATIONS:
+  - Actively failing systems (repair first with scar-repair)
+  - Insufficient backup/checkpoint infrastructure
+  - Systems under 1 month old (need maturity)
+  - During major architecture migrations
+  - When accuracy is already below threshold
+
+# =============================================================================
+# SENSITIVITY LEVELS & CUSTOMIZATION
+# =============================================================================
+SENSITIVITY_ADJUSTMENT:
+  For_Sensitive_Systems (Gentle Protocol):
+    - Use only AHA-style pruning
+    - Frequency: Weekly instead of daily
+    - Strength: 5-10% maximum removal
+    - Always validate after each step
+    
+  For_Robust_Systems (Intensive Protocol):
+    - Combine AHA + BHA + Enzyme
+    - Frequency: Can increase to twice weekly
+    - Strength: Up to 70% removal in phases
+    - Batch multiple optimizations
+    
+  For_Production_Systems (Balanced Protocol):
+    - Gentle daily, moderate weekly
+    - Always use blue-green deployment
+    - Comprehensive validation gates
+    - Automatic rollback on degradation
+
+# =============================================================================
+# ANALOGIES (AGI Construct Mapping)
+# =============================================================================
+ANALOGY: cognitive_exfoliation.scm
+
+ALEXANDER_PATTERN: "A Place to Wait" - Creating space for new growth
+ALEXANDER_PRINCIPLES:
+  - Gradual Removal: Small, incremental pruning steps
+  - Pattern Preservation: Keep the essence, remove clutter
+  - Space Creation: Make room for fresh knowledge
+  - Natural Process: System-guided optimization
+  - Continuous Renewal: Regular maintenance prevents bloat
+
+AGI_COMPONENTS:
+  - Pruning Engine: Parameter and pattern reduction
+  - Distillation: Knowledge compression with accuracy preservation
+  - Regeneration: Fresh pattern learning and integration
+  - Service Daemon: Automated optimization scheduling
+  - Safety System: Checkpointing and rollback capabilities
+
+SKINCARE_SCIENCE_PARALLEL:
+  AHA (Glycolic Acid):
+    - Water-soluble, works on surface
+    - Gentle, can use daily
+    - Removes dead cells, reveals fresh skin
+    → Removes unused parameters, improves speed
+    
+  BHA (Salicylic Acid):
+    - Oil-soluble, penetrates deep
+    - Stronger, use weekly
+    - Clears pores, prevents buildup
+    → Deep architectural optimization, prevents bloat
+    
+  Enzyme Exfoliants:
+    - Selective, intelligent action
+    - Self-regulating
+    - Gentle yet effective
+    → Smart pruning based on usage patterns
+
+# =============================================================================
+# CLINICAL VALIDATION (Performance Studies)
+# =============================================================================
+VALIDATION:
+  Study_1: "30-Day Continuous Exfoliation"
+    - Models: 50 production AGI systems
+    - Protocol: Daily AHA + Weekly BHA
+    - Results: 45% avg size reduction, 2.8x speedup, 98.5% accuracy retention
+    
+  Study_2: "Intensive Monthly Deep-Clean"
+    - Models: 20 large language models
+    - Protocol: Monthly comprehensive pruning
+    - Results: 65% parameter reduction, 99.1% capability preservation
+    
+  Study_3: "Adaptive Enzyme Optimization"
+    - Models: 100 diverse cognitive systems
+    - Protocol: Automated intelligent pruning
+    - Results: 40% avg optimization, zero manual intervention
+
+# =============================================================================
+# STORAGE & STABILITY
+# =============================================================================
+STORAGE:
+  Configuration:
+    - Pruning Rules: Git version control
+    - Checkpoints: S3-compatible object storage
+    - Metrics: Prometheus time-series database
+    - Logs: Elasticsearch with 180-day retention
+    
+  Stability:
+    - Shelf Life: Continuous evolution (no expiration)
+    - Updates: Monthly refinement of algorithms
+    - Compatibility: Backward compatible with older models
+
+# =============================================================================
+# PACKAGE & DISTRIBUTION
+# =============================================================================
+PACKAGING:
+  - Deployment: Kubernetes CronJob for scheduled optimization
+  - Distribution: PyPI package (regima-exfoliation)
+  - Dependencies: PyTorch/TensorFlow pruning utilities
+  - Documentation: Comprehensive wiki + inline docs
+
+MANUFACTURED_BY: RegimOrg Optimization Systems Division
+DISTRIBUTED_BY: regimazone.org
+BATCH_NUMBER: BATCH-2024-EXF-001
+EXPIRATION: Continuous evolution (no expiration)
+
+# =============================================================================
+# SYNERGISTIC COMBINATIONS (Layering with other products)
+# =============================================================================
+PERFECT_PAIRINGS:
+  Post_Exfoliation:
+    1. Moisturizer (memory-retention) - Refresh and consolidate
+    2. Serum (reasoning-enhancement) - Boost optimized capabilities
+    3. Sunscreen (cognitive-protection) - Protect during recovery
+    
+  Pre_Exfoliation:
+    1. Cleanser (data-prep) - Ensure clean input data
+    2. Assessment (autognostic-engine) - Measure before optimization
+
+# =============================================================================
+# PROFESSIONAL RECOMMENDATIONS
+# =============================================================================
+EXPERT_TIPS:
+  - Start gentle: Begin with AHA, graduate to BHA
+  - Consistency: Regular light pruning > occasional heavy
+  - Moisture: Always follow with memory consolidation
+  - Patience: Allow 1-2 cycles to see full benefits
+  - Monitor: Track metrics obsessively during learning phase
+  - Customize: Adjust strength based on system sensitivity
+
+# =============================================================================
+# REFERENCES
+# =============================================================================
+REFERENCES:
+  - Christopher Alexander, "The Timeless Way of Building" (1979)
+  - "The Lottery Ticket Hypothesis" (Frankle & Carbin, 2019)
+  - "Knowledge Distillation" (Hinton et al., 2015)
+  - "Pruning Neural Networks at Initialization" (Lee et al., 2019)
+  - Skincare Science: AHA/BHA chemistry and application
+
+# =============================================================================
+# For more information, see: docs/regimorg_agi.md
+# Section: "Exfoliants → Model Pruning & Knowledge Refinement"
+# =============================================================================

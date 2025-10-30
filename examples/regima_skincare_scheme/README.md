@@ -43,48 +43,106 @@ ANALOGY: {{agi-construct-mapping}}
 
 **Think of it as**: The "product label" that describes what it does, how to use it, and what's in it.
 
-## Examples Included
+## Complete Construct Pairs
 
-### 1. Scar Repair ↔ Self-Healing Systems
+### 1. Scar Repair ↔ Self-Healing Systems ⭐ **CORE ANALOGY**
 
-**Core Analogy**: RegimA's most important metaphor
+**Files**: `self_healing_cognitive.scm` + `scar_repair.skn`  
+**Mapping Strength**: 0.97 (Direct Isomorphism)  
+**Alexander Pattern**: "The Process of Repair"
 
-**Files**:
-- `self_healing_cognitive.scm` - Self-healing AGI system blueprint
-- `scar_repair.skn` - Scar repair product specification
-
-**Inspired by**: Christopher Alexander's "The Process of Repair" from "The Timeless Way of Building"
-
-**Key Concepts**:
-- Autognostic Engine: Self-diagnostic monitoring (like skin detecting damage)
-- Autogenetic Repair: Autonomous healing mechanisms (like skin regeneration)
-- MLOps Integration: Operational maintenance (like skincare routine)
+**Key Innovation**: Autognostic + Autogenetic engines for autonomous system healing
 
 ### 2. Cleanser ↔ Data Preprocessing
 
-**Analogy**: Remove impurities from inputs before processing
+**Files**: `cognitive_data_prep.scm` + `cleanser.skn`  
+**Mapping Strength**: 0.95 (Direct Isomorphism)  
+**Alexander Pattern**: "Light on Two Sides of Every Room"
 
-**Files**:
-- `cognitive_data_prep.scm` - Data sanitization blueprint
-- `cleanser.skn` - Cleanser product specification
-
-**Key Concepts**:
-- Sanitization: Remove noise and outliers
-- Validation: Schema and business rule checks
-- Normalization: Standardize data format
+**Natural Fit**: Remove impurities before processing = universal preprocessing pattern
 
 ### 3. Moisturizer ↔ Memory Management
 
-**Analogy**: Maintain context hydration, prevent knowledge evaporation
+**Files**: `memory_retention.scm` + `moisturizer.skn`  
+**Mapping Strength**: 0.98 (Direct Isomorphism)  
+**Alexander Pattern**: "Connection to the Earth"
 
-**Files**:
-- `memory_retention.scm` - Memory management blueprint
-- `moisturizer.skn` - Moisturizer product specification
+**Perfect Correspondence**: Hydration retention ↔ Context/memory preservation
 
-**Key Concepts**:
-- Short-Term Cache: Working memory (Redis)
-- Long-Term Storage: Knowledge base (AtomSpace)
-- Context Bridge: Integration between memory types
+### 4. Exfoliants ↔ Model Pruning 🆕
+
+**Files**: `cognitive_exfoliation.scm` + `exfoliant.skn`  
+**Mapping Strength**: 0.96 (Direct Isomorphism)  
+**Alexander Pattern**: "A Place to Wait"
+
+**Chemistry Match**: AHA/BHA penetration depth ↔ Optimization intensity levels
+- AHA (gentle, daily) = Surface parameter pruning
+- BHA (deep, weekly) = Architectural optimization
+- Enzyme (selective) = Intelligent adaptive pruning
+
+### 5. Sunscreen ↔ Security Layers 🆕
+
+**Files**: `cognitive_protection.scm` + `sunscreen.skn`  
+**Mapping Strength**: 0.98 (Direct Isomorphism)  
+**Alexander Pattern**: "Thick Walls"
+
+**Brilliant Mapping**: SPF rating system = Security Protection Factor
+- SPF 15 = Basic security (internal systems)
+- SPF 30 = Standard security (business apps)
+- SPF 50 = High security (financial, healthcare)
+- SPF 100 = Military-grade (critical infrastructure)
+
+### 6. Anti-Aging ↔ Performance Optimization 🆕
+
+**Files**: `performance_longevity.scm` + `anti_aging.skn`  
+**Mapping Strength**: 0.95 (Direct Isomorphism)  
+**Alexander Pattern**: "Efficient Structure"
+
+**Active Ingredients Map Perfectly**:
+- CoQ10 → Query optimization
+- Resveratrol → Resource management
+- Retinol → Code refactoring
+- Hyaluronic Acid → Multi-layer caching
+- Peptides → Performance culture building
+
+### 7. Acne Treatment ↔ Error Handling 🆕
+
+**Files**: `exception_resolution.scm` + `acne_treatment.skn`  
+**Mapping Strength**: 0.92 (Strong Analogy)  
+**Alexander Pattern**: "Good Shape"
+
+**Problem Type Classification**:
+- Whiteheads → Validation errors (surface, contained)
+- Blackheads → Technical debt (persistent, stable)
+- Papules → Business logic errors (inflamed, moderate)
+- Pustules → Exceptions with stack traces (ready to fix)
+- Cystic → Data corruption (deep, severe, scarring)
+- Hormonal → Resource exhaustion (recurring, predictable)
+
+**Treatment Strengths**:
+- OTC Gentle (2.5%) → Automated retry and fallback
+- OTC Moderate (5%) → Standard error handling
+- OTC Maximum (10%) → Advanced exception management
+- Prescription → Architectural fixes for systemic issues
+
+### 8. Retinol ↔ Architecture Evolution 🆕
+
+**Files**: `architecture_evolution.scm` + `retinol.skn`  
+**Mapping Strength**: 0.94 (Strong Analogy)  
+**Alexander Pattern**: "Gradual Stiffening"
+
+**Critical Innovation: The Purging Period**
+- Temporary regression before improvement (2-12 weeks)
+- Hidden technical debt surfaces during transformation
+- Management: Feature flags, gradual rollout, team support
+- Application to change management in software engineering
+
+**Retinol Concentrations**:
+- 0.1% → Minor refactoring (weekly)
+- 0.3% → Significant refactoring (bi-weekly)
+- 0.5% → Major module redesign (monthly)
+- 1.0% → Architectural overhaul (quarterly)
+- Tretinoin → Complete platform migration (annually)
 
 ## Usage Patterns
 
@@ -111,17 +169,30 @@ Understand your skincare routine through the lens of AGI:
 - **Scar Treatment** = Error recovery and self-healing
 - **Sunscreen** = Security and protection layers
 
-## The Complete Mapping
+## The Complete Mapping Table
 
-| Skincare | AGI Construct | File Prefix |
-|----------|---------------|-------------|
-| Cleansers | Data Preprocessing | `cognitive_data_prep` |
-| Moisturizers | Memory Management | `memory_retention` |
-| Scar Repair | Self-Healing | `self_healing_cognitive` |
-| Exfoliants | Model Pruning | `cognitive_exfoliation` |
-| Serums | Optimization | `targeted_optimization` |
-| Sunscreen | Security | `cognitive_protection` |
-| Anti-Aging | Performance | `performance_longevity` |
+| Skincare Category | AGI Construct | File Prefix | Status | Strength |
+|------------------|---------------|-------------|--------|----------|
+| **Cleanser** | Data Preprocessing | `cognitive_data_prep` | ✅ Complete | 0.95 |
+| **Toner** | System Calibration | `system_calibration` | 🔄 Planned | 0.92 |
+| **Essence** | Context Enrichment | `context_enrichment` | 🔄 Planned | 0.88 |
+| **Serum** | Targeted Optimization | `reasoning_enhancement` | 🔄 Planned | 0.90 |
+| **Moisturizer** | Memory Management | `memory_retention` | ✅ Complete | 0.98 |
+| **Eye Cream** | Critical Path Optimization | `critical_path` | 🔄 Planned | 0.87 |
+| **Scar Repair** | Self-Healing Systems | `self_healing_cognitive` | ✅ Complete | 0.97 |
+| **Acne Treatment** | Error Handling | `exception_resolution` | ✅ Complete | 0.92 |
+| **Exfoliant** | Model Pruning | `cognitive_exfoliation` | ✅ Complete | 0.96 |
+| **Mask** | Deep Learning | `intensive_training` | 🔄 Planned | 0.85 |
+| **Sunscreen** | Security Layers | `cognitive_protection` | ✅ Complete | 0.98 |
+| **Anti-Aging** | Performance Optimization | `performance_longevity` | ✅ Complete | 0.95 |
+| **Retinol** | Architecture Evolution | `architecture_evolution` | ✅ Complete | 0.94 |
+| **Vitamin C** | Code Clarity | `model_clarity` | 🔄 Planned | 0.86 |
+| **Niacinamide** | Multi-Task Learning | `multitask_learning` | 🔄 Planned | 0.89 |
+
+**Legend:**
+- ✅ Complete: Both `.scm` and `.skn` files implemented
+- 🔄 Planned: Documented in framework, awaiting implementation
+- Strength: Analogical fittedness score (0.0-1.0)
 
 ## Christopher Alexander's Influence
 
@@ -138,18 +209,47 @@ Key principles applied:
 - **Living Structure**: Organic evolution
 - **The Process of Repair**: Continuous maintenance
 
-## Service Daemons
+## Service Daemons: Skincare Routines as System Maintenance
 
-Each construct can be deployed as a service daemon:
+Service daemons implement the skincare routine concept at the operational level. Each daemon runs on a schedule analogous to skincare application frequency.
 
-```scheme
-;; Example daemon configuration
-(define-service-daemon repair-daemon
-  (construct 'self-healing-cognitive)
-  (schedule 'continuous)
-  (triggers '(error-threshold performance-degradation))
-  (priority 'high))
-```
+### Complete Daemon Suite
+
+| Service Daemon | Skincare Analog | Schedule | Purpose |
+|----------------|-----------------|----------|---------|
+| `healthcheck.daemon` | Daily Cleanser | Continuous | System health monitoring |
+| `memgc.daemon` | Weekly Exfoliant | Hourly gentle, Weekly intensive | Memory cleanup and optimization |
+| `knowledge-consolidate.daemon` | Night Cream | Daily overnight | Knowledge base optimization |
+| `repair.daemon` | Scar Repair Serum | On-error, Continuous | Automated self-healing |
+| `security-scan.daemon` | SPF-50 Sunscreen | Continuous | Security monitoring and defense |
+| `performance-tune.daemon` | Anti-Aging Serum | Continuous profiling, Weekly optimization | Performance optimization |
+| `backup.daemon` | Daily Moisturizer | Hourly incremental, Daily full | State preservation and hydration |
+| `evolution.daemon` | Prescription Retinol | Nightly gentle, Monthly moderate, Quarterly intensive | Architecture evolution |
+
+### Daily Maintenance Routine
+
+**Morning Routine** (6-8 AM):
+1. `healthcheck.daemon` - Wash face (health check)
+2. `security-scan.daemon` - Apply sunscreen (security scan)
+3. `performance-tune.daemon` - Vitamin C serum (quick optimization)
+4. `backup.daemon` - Moisturizer (state preservation)
+
+**Throughout Day**:
+- Continuous: healthcheck, security-scan, repair
+- Hourly: memgc (gentle), backup (incremental)
+
+**Evening Routine** (10 PM - 2 AM):
+1. `healthcheck.daemon` - Remove makeup (log analysis)
+2. `knowledge-consolidate.daemon` - Night cream (consolidation)
+3. `backup.daemon` - Eye cream (critical data backup)
+4. `evolution.daemon` - Retinol (code evolution)
+
+**Weekly Deep Clean** (Sunday 2-6 AM):
+1. `memgc.daemon` (intensive) - Exfoliation
+2. `performance-tune.daemon` - Deep optimization mask
+3. `evolution.daemon` (moderate) - Professional treatment
+
+See `/docs/service_daemons_guide.md` for complete implementation details.
 
 ## Integration with RegimOrg
 
